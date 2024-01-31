@@ -62,7 +62,7 @@ class BaseFunction : EvalFunction {
         return if (toBase == 10) {
             value
         } else {
-            "\"${value.toString(radix = toBase).uppercase()}\""
+            value.toString(radix = toBase).uppercase()
         }
     }
 }
