@@ -1,4 +1,4 @@
-# KExpression
+# [KExpression](https://github.com/perracodex/KExpression)
 An extensible expression evaluator for Kotlin.
 
 <img src="./.screenshots/example.gif" width="800" alt="example">
