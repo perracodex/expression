@@ -1,5 +1,5 @@
 # [KExpression](https://github.com/perracodex/KExpression)
-An extensible expression evaluator for Kotlin.
+An extensible math expression evaluator in Kotlin.
 
 <img src="./.screenshots/example.gif" width="800" alt="example">
 
