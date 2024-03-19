@@ -4,9 +4,8 @@ An extensible math expression evaluator in Kotlin.
 <img src="./.screenshots/example.gif" width="800" alt="example">
 
 ### Overview
-KExpression is an extensible expression evaluator written in Kotlin.
-It allows for the evaluation of mathematical expressions and supports various types of nodes including numbers,
-binary operations, functions, text literals, and unary operations. 
+KExpression is an extensible expression evaluator written in Kotlin, supporting various types of nodes including numbers,
+binary operations, functions, text literals, and unary operations.
 
 
 ### Usage
