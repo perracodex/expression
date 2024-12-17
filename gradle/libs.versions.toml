@@ -1,0 +1,27 @@
+# https://developer.android.com/build/migrate-to-catalogs
+
+[versions]
+
+detekt = "1.23.7"
+kotlin = "2.1.0"
+
+
+[plugins]
+
+# Detekt.
+# https://github.com/detekt/detekt/releases
+# https://github.com/detekt/detekt
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
+
+# Kotlin JVM.
+# https://github.com/Kotlin/dokka/releases
+# https://github.com/JetBrains/kotlinx
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
+
+[libraries]
+
+# Detekt.
+# https://github.com/detekt/detekt/releases
+# https://github.com/detekt/detekt
+detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }

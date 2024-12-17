@@ -1,15 +1,15 @@
-# [KExpression](https://github.com/perracodex/KExpression)
-A extensible math expression evaluator written in Kotlin.
+# [Expression](https://github.com/perracodex/expression)
+An extensible math expression evaluator written in Kotlin.
 
 <img src="./.screenshots/example.gif" width="800" alt="example">
 
 ### Overview
-KExpression is an extensible expression evaluator written in Kotlin, supporting various types of nodes including numbers,
+**Expression** is an extensible expression evaluator written in Kotlin, supporting various types of nodes including numbers,
 binary operations, functions, text literals, and unary operations.
 
 
 ### Usage
-To use KExpression, create an instance of the Evaluator class and call the evaluate method with the expression
+To use **Expression**, create an instance of the Evaluator class and call the evaluate method with the expression
 you want to evaluate as a string. For example:
 
 ```kotlin
@@ -19,7 +19,7 @@ val result = evaluator.evaluate(input = "1 + 2 * sin(1)")
 
 ### High Level Design
 
-KExpression works by using a combination of a lexer, parser, and evaluator to process mathematical expressions. 
+**Expression** works by using a combination of a lexer, parser, and evaluator to process mathematical expressions. 
 Here's a brief explanation of each component:
 
 ### Lexer
@@ -56,6 +56,6 @@ the operator precedence due to the structure of the AST.
 Errors during evaluation are handled by throwing an EvalException.
 
 ### Built-in Functions
-KExpression comes with some built-in functions examples for both numeric and text:
+**Expression** comes with some built-in functions examples for both numeric and text:
 sin, cos, tan, len,
 reverse, replace, encode64, decode64, and base

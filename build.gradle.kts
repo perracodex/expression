@@ -1,8 +1,13 @@
+/*
+ * Copyright (c) 2024-Present Perracodex. Use of this source code is governed by an MIT license.
+ */
+
 plugins {
-    kotlin("jvm") version "1.9.22"
+    alias(libs.plugins.kotlin.jvm) // Required for Kotlin JVM development.
+    alias(libs.plugins.detekt) // Required for static code analysis.
 }
 
-group = "com.perraco"
+group = "io.github.perracodex"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -10,6 +15,7 @@ repositories {
 }
 
 dependencies {
+    detektPlugins(libs.detekt.formatting)
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
